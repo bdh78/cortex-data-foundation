@@ -1,0 +1,13 @@
+   "marketing": {
+        "deployMeta": true,
+        "Meta": {
+            "deployCDC": true,
+            "datasets": {
+                "cdc": "CDC_Meta",
+                "raw": "RAW_Meta",
+                "reporting": "REPORTING_Meta"
+            }
+        }
+    }
+        }
+    }
