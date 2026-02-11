@@ -130,7 +130,7 @@
             }
         },
         "TikTok": {
-            "deployCDC": fasle,
+            "deployCDC": false,
             "datasets": {
                 "cdc": "",
                 "raw": "",
