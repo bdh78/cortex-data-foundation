@@ -1,7 +1,7 @@
 {
     "testData": true,
     "deploySAP": false,
-    "deploySFDC": true,
+    "deploySFDC": false,
     "deployMarketing": true,
     "deployOracleEBS": false,
     "enableTaskDependencies": false,
@@ -72,7 +72,7 @@
         "processingDataset": "CORTEX_VERTEX_AI_PROCESSING"
     },
     "SAP": {
-        "deployCDC": true,
+        "deployCDC": false,
         "SQLFlavor": "ecc",
         "mandt": "100",
         "languages": [
@@ -89,7 +89,7 @@
         }
     },
     "SFDC": {
-        "deployCDC": true,
+        "deployCDC": false,
         "createMappingViews": true,
         "createPlaceholders": true,
         "currencies": [
@@ -102,17 +102,17 @@
         }
     },
     "marketing": {
-        "deployGoogleAds": true,
-        "deployCM360": true,
-        "deployTikTok": true,
-        "deployLiveRamp": true,
+        "deployGoogleAds": false,
+        "deployCM360": false,
+        "deployTikTok": false,
+        "deployLiveRamp": false,
         "deployMeta": true,
-        "deploySFMC": true,
-        "deployDV360": true,
-        "deployGA4": true,
+        "deploySFMC": false,
+        "deployDV360": false,
+        "deployGA4": false,
         "dataflowRegion": "",
         "GoogleAds": {
-            "deployCDC": true,
+            "deployCDC": false,
             "lookbackDays": 180,
             "datasets": {
                 "cdc": "",
@@ -121,7 +121,7 @@
             }
         },
         "CM360": {
-            "deployCDC": true,
+            "deployCDC": false,
             "dataTransferBucket": "",
             "datasets": {
                 "cdc": "",
@@ -130,7 +130,7 @@
             }
         },
         "TikTok": {
-            "deployCDC": true,
+            "deployCDC": fasle,
             "datasets": {
                 "cdc": "",
                 "raw": "",
@@ -151,7 +151,7 @@
             }
         },
         "SFMC": {
-            "deployCDC": true,
+            "deployCDC": false,
             "fileTransferBucket": "",
             "datasets": {
                 "cdc": "",
@@ -160,7 +160,7 @@
             }
         },
         "DV360": {
-            "deployCDC": true,
+            "deployCDC": false,
             "datasets": {
                 "raw": "",
                 "cdc": "",
