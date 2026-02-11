@@ -110,7 +110,7 @@
         "deploySFMC": false,
         "deployDV360": false,
         "deployGA4": false,
-        "dataflowRegion": "",
+        "dataflowRegion": "us-central1",
         "GoogleAds": {
             "deployCDC": false,
             "lookbackDays": 180,
@@ -145,8 +145,8 @@
         "Meta": {
             "deployCDC": true,
             "datasets": {
-                "cdc": "",
-                "raw": "",
+                "cdc": "CDC_Meta",
+                "raw": "RAW_Meta",
                 "reporting": "REPORTING_Meta"
             }
         },
