@@ -8,7 +8,7 @@
     "turboMode": true,
     "projectIdSource": "coretex-485222",
     "projectIdTarget": "coretex-485222",
-    "targetBucket": "cortex-deployment-bucket-coretex-485222",
+    "targetBucket": "us-central1-coretex-17964e55-bucket",
     "location": "US",
     "testDataProject": "kittycorn-public",
     "k9": {
