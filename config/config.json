@@ -1,5 +1,5 @@
 {
-    "testData": true,
+    "testData": false,
     "deploySAP": false,
     "deploySFDC": false,
     "deployMarketing": true,
